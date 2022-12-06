@@ -11,7 +11,7 @@ int main() {
 	MonsterEncounter MB; // Creates a monster battle object that you can edit attributes of.
 	MB.monsterName = "monster";// Ghange the name of the monster here.
 	MB.startingMonsterHealth = 30;// This is the ammount of health the monster will start with when you start a new game.
-	
+	MB.startingPlayerHealth = 30;// This is the ammount of health the player will start with when you start a new game.
 	
 	
 	
