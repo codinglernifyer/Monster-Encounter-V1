@@ -8,8 +8,12 @@ using namespace std;
 
 
 int main() {
-	MonsterEncounter GobBat;// goblin battle
-	GobBat.monsterName = "rabbit";
-	GobBat.startingMonsterHealth = 30;
-	GobBat.MonsterFighterTitleScreen();// starts game
+	MonsterEncounter MB; // Creates a monster battle object that you can edit attributes of.
+	MB.monsterName = "monster";// Ghange the name of the monster here.
+	MB.startingMonsterHealth = 30;// This is the ammount of health the monster will start with when you start a new game.
+	
+	
+	
+	
+	MB.MonsterFighterTitleScreen();// This is the void that starts the game.
 }
