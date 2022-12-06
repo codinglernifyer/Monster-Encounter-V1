@@ -12,7 +12,7 @@ int main() {
 	MB.monsterName = "monster";// Ghange the name of the monster here.
 	MB.startingMonsterHealth = 30;// This is the ammount of health the monster will start with when you start a new game.
 	MB.startingPlayerHealth = 30;// This is the ammount of health the player will start with when you start a new game.
-	
+	MB.maxMoves = 20; // The max ammount of moves before game over will be set here.
 	
 	
 	MB.MonsterFighterTitleScreen();// This is the void that starts the game.
