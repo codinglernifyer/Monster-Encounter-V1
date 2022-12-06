@@ -164,7 +164,7 @@ void MonsterEncounter::PlayerMove1() {
         MonsterHealth--;
     }
 
-    system("clear");// after doing action do the monsters move and clear the previous moves text to not clog up the screen, than let the player do another move
+    ClearScreen();
     cout << "The " << monsterName << " snarls as its wound\n";
     cout << "-10 of the " << monsterName << "s health\n\n";
     BrodcastStats();
