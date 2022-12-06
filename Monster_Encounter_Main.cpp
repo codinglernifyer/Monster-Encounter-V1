@@ -7,7 +7,7 @@
 using namespace std;
 
 
-int main() {
+int main(void) {
 	// Basic variables for the game.
 	MonsterEncounter MB; // Creates a monster battle object that you can edit attributes of.
 	MB.monsterName = "monster";// Ghange the name of the monster here.
