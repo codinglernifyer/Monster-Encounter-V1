@@ -17,14 +17,14 @@ int main() {
 	
 	// Monster move values that controll the power of the monsters diffrent moves.
 	MB.monsterMove1dmgval = 10; // Damage the monster dose to the player with its first move. Default is 10.
-	MB.monsterMove2Regenval = 10; // Health the monster gains using its second move. Default is 10.
+	MB.monsterMove2regenval = 10; // Health the monster gains using its second move. Default is 10.
 	// The third move dose two things at once.
 	MB.monsterMove3regenval = 4; // Health the monster gains using its third move. Default is 4.
         MB.monsterMove3dmgval = 4; // Damage the monster dose to the player with its third move. Default is 4.
 	
 	// Player move values that controll the power of the players diffrent moves.
 	MB.playerMove1dmgval = 10; // Damage the player dose to the monster with its first move. Default is 10.
-	MB.playerMove2Regenval = 10; // Health the player gains using its second move. Default is 10.
+	MB.playerMove2regenval = 10; // Health the player gains using its second move. Default is 10.
 	// The third move dose two things at once.
 	MB.playerMove3regenval = 4; // Health the player gains using its third move. Default is 4.
         MB.playerMove3dmgval = 4; // Damage the player dose to the monster with its third move. Default is 4.
